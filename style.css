@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    margin:0px;
+}
+div.row{
+    height: 20px;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    
+}
+.blueWorld{
+    background-color: blue;
+}
+.redWorld{
+    background-color: red;
+}
+.pinkWorld{
+    background-color: pink;
+}
+.orangeWorld{
+    background-color: orange;
+}
+.greenWorld{
+    background-color: green;
+}
+div.coin{
+    background: url('Images/Coin1.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 30%;
+}
+div.cherry{
+    background: url('Images/Cherry.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 95%;
+}
+div#pacman{
+    background: url('Images/Pacman.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+}
+div#BlueGhost{
+    background: url('Images/BLueGhost.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+}
+div#RedGhost{
+    background: url('Images/RedGhost.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+}
+div#PinkGhost{
+    background: url('Images/PinkGhost.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+}
+div#OrangeGhost{
+    background: url('Images/OrangeGhost.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+}
+div#score{
+    border:1px solid white;
+    width:100px;
+    height:30px;
+    color:white;
+    padding:7px;
+    text-align:center;
+    position:absolute;
+    left:620px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#GameOver{
+    text-align: center;
+    position: absolute;
+    top: 585px;
+    left: 625px;
+    color: red;
+}
